@@ -1,0 +1,51 @@
+.body head{
+    background-color: #16c241;
+}
+p{
+    font-size: 38px;
+}
+.head{
+    background-color: #fff;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #16c241;
+}
+.mark{
+    font-size: 75px;
+    color: #fff;
+
+}
+.body head{
+    background-color: #16c241;
+}
+
+a:hover{
+    color:#fd0707
+}
+a:visited{
+    color: #8117e4;
+}
+.button{
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
+.creativity{
+    font-size: 48px;
+    text-align: center;
+    text-decoration: underline;
+}
+.image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%; 
+}
+.img3{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%; 
+}
