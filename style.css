@@ -1,6 +1,12 @@
 .head{
     background-color: #fff;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+      background: #999;
+      width: 100%;
+    }
+  }
 body{
     margin: 4%;
     padding: 0%;
@@ -46,11 +52,9 @@ button{
 a{
     text-decoration: none;
 }
-a:visited :hover{
-    color: #fd0707;
-}
+
 .di{
-    text-align: center;
+    text-align: left;
     display: inline;
     font-size: 180%;
 }
