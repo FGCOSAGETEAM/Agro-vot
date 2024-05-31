@@ -1,12 +1,8 @@
 .body head{
     background-color: #16c241;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
-    body {
-      background: #999;
-      width: 100%;
-    }
-p{
+
+.te{
     font-size: 38px;
 }
 .head{
@@ -15,7 +11,7 @@ p{
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #16c241;
+    background: linear-gradient(#16c241, #e4bdbd)
 }
 .mark{
     font-size: 75px;
@@ -32,10 +28,29 @@ a:hover{
 a:visited{
     color: #8117e4;
 }
+.anc{
+    font-size: 25px;
+}
+.acreate{
+    font-size: 25px;
+    margin-left: 200px;
+}
 .button{
     text-align: center;
     text-decoration: none;
     font-style: italic;
+}
+.soc{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.buss{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.abt{
+    font-size: 25px;
+    margin-left: 100px;
 }
 .creativity{
     font-size: 48px;
@@ -53,4 +68,35 @@ a:visited{
         margin-left: auto;
         margin-right: auto;
         width: 40%; 
+}
+
+@media  screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.anc{
+    font-size: 15px;
+}
+.acreate{
+    font-size: 15px;
+    margin-left: 49px;
+}
+.soc{
+    font-size: 15px;
+    margin-left: 49px;
+}
+.buss{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.te{
+    font-size: 25px;
+}
+.abt{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.creativity{
+    font-size: 30px;
+}
+.tet{
+    font-size: 30px;
+}
 }

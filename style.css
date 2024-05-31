@@ -1,16 +1,27 @@
 .head{
     background-color: #fff;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
-    body {
-      background: #999;
-      width: 100%;
-    }
+
   
 body{
     margin: 4%;
     padding: 0%;
-    background-color: hsl(135, 80%, 42%);
+    background: linear-gradient(#16c241, #e4bdbd)
+}
+
+.acreate{
+    font-size: 25px;
+     margin-left: 100px;
+    }
+.abt{
+    font-size: 25px;
+        margin-left: 100px;
+    
+}
+  
+.buss{
+    font-size: 25px;
+    margin-left: 100px;
 }
 .mark{
     font-size: 75px;
@@ -40,7 +51,7 @@ img{
     align-content: center;
 }
 .img5{
-    
+    width: 10%;
     margin-left: 90%;
     margin-top: -50%;
 }
@@ -52,7 +63,13 @@ button{
 a{
     text-decoration: none;
 }
-
+.soc{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.anc{
+    font-size: 25px;
+}
 .di{
     text-align: left;
     display: inline;
@@ -74,3 +91,59 @@ a{
     padding: 0%;
     background-color: #380909;
 }
+@media  screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   
+    .di{
+        text-align: left;
+        display: inline;
+        font-size: 100%;
+    }
+    .below{
+        font-size:25px;
+        color:#fff
+    }
+    .he2{
+        font-size: 20px;
+    }
+    .mark{
+        font-size: 25px;
+        color: #fff;
+    }
+    .foot{
+        margin-left: -4%;
+        margin-right: -4%;
+        margin-bottom: 0%;
+        padding: 0%;
+        background-color: #380909;
+    }
+   .anc{
+     font-size: 15px;
+   }
+   .img5{
+    width: 14%;
+   }
+   .anc{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.acreate{
+    font-size: 15px;
+    margin-left: 49px;
+    text-decoration: underline;
+}
+.soc{
+    font-size: 15px;
+    margin-left: 49px;
+    text-decoration: underline;
+}
+.buss{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.abt{
+    font-size: 15px;
+    margin-left: 49px;
+    text-decoration: underline;
+}
+    }
